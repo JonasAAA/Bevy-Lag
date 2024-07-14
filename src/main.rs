@@ -4,7 +4,7 @@ use bevy::{
     prelude::{Camera2dBundle, Commands},
     DefaultPlugins,
 };
-use iyes_perf_ui::{entries::PerfUiCompleteBundle, PerfUiPlugin};
+use iyes_perf_ui::{PerfUiCompleteBundle, PerfUiPlugin};
 
 fn main() {
     App::new()
